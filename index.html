@@ -15,7 +15,7 @@
     <header class="container">
         <!-- navbar starts -->
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container mt-5">
                 <h3>Pro edu</h3>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,7 +51,7 @@
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" alt="...">
                         <div
-                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-dark opacity-75">
                             <h1 class="mb-4">Get Started Digital <br> Learning</h1>
                             <p class="mb-4">Learn digital skills at your own pace, with personalised training
                                 designed
@@ -61,10 +61,11 @@
                             <button class="btn btn-info text-light px-4" type="submit">Get Started</button>
                         </div>
                     </div>
+
                     <div class="carousel-item">
                         <img src="images/cover/cover-2.png" alt="...">
                         <div
-                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-dark opacity-75">
                             <h1 class="mb-4">Discover Strategies for <br> success</h1>
                             <p class="mb-4">While we know that you are an expert in your field, we don’t also expect you
                                 to be an expert in online course design. That’s where we come in!</p>
@@ -74,7 +75,7 @@
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.png" alt="...">
                         <div
-                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+                            class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center bg-dark opacity-75">
                             <h1 class="mb-4">Tech Resources for Online <br> Learning</h1>
                             <p class="mb-4">Your instructors will let you know how your class goals will be accomplished
                                 with online learning and make learning available to you.</p>
@@ -237,8 +238,30 @@
                 </p>
             </div>
             <div class="d-flex align-items-center justify-content-center w-50">
-                <button type="button" class="btn btn-light text-info">Register Now</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light text-info" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Register Now</button>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Read the instructions carefully</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            If you agree with our terms and conditions then proceed for next level.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!-- Register section ends -->
         <!-- Questions started -->
